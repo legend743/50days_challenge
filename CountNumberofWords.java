@@ -5,7 +5,7 @@ class CountNumberofWords{
     public static void main(String[] args) {
         //by using simple method 
         // String para="This is my paragraph line";
-        System.out.println("Enter the paragraph");
+        System.out.println("Enter the paragrapgith");
         Scanner sc=new Scanner(System.in);
         String para=sc.nextLine();
 
