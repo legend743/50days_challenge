@@ -6,7 +6,10 @@ public class findSmallerNumber {
         for (int i=1;i<lenArr;i++){
             
             System.out.println(smallerNum);
-            if (array[i-1]>array[i]){
+            while(smallerNum){
+                
+            }
+            if (array[i-1]<array[i]){
                 smallerNum=array[i-1];
 
             }
