@@ -1,30 +1,18 @@
-import java.util.Arrays;
 import java.util.Scanner;
 public class CheckVowel {
     public static void main(String[] args) {
-    //    String [] AlphaArray;
-    //    AlphaArray=new String[26];
         char[] AlphaArray={'a','e','i','o','u'};
         Scanner sc=new Scanner(System.in);
-        char val=sc.nextLine();
-
-        
-       for (int i=0 ;i<=6; i++){
-        // if (AlphaArray[i]=='a'){
-        //     System.out.println("Its vowel");
-
-        // }
-            switch (value) {
-                case AlphaArray[1]:
-                    
-                    break;
-            
-                default:
-                    break;
+        System.out.println("Enter the value");
+        char val=sc.next().charAt(0);       
+       for (int i=0 ;i<=4; i++){
+        // if (AlphaArray[i] == 'a' || AlphaArray[i] == 'e' || AlphaArray[i] == 'i' || AlphaArray[i] == 'o' || AlphaArray[i] == 'u'){
+            if (val==AlphaArray[i] ){
+            System.out.println("Its vowel");
             }
-
+            
+        }
+        System.out.println("entered value is not vowel");
        }
-
     }
     
-}
