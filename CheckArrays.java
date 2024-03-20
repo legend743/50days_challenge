@@ -19,7 +19,14 @@ public class CheckArrays {
 
         }
 
-        
+        // if you want to check partial string you can use contains keyword
+        if (str1.toLowerCase().contains(str2.toLowerCase())){
+            System.out.println("It contains the letter");
+        }
+        else{
+            System.out.println("it does not contain ");
+        }
 
     }
+
 }
