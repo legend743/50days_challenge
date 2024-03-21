@@ -7,6 +7,7 @@ public class removeHeadingSace {
         Scanner sc=new Scanner(System.in);
         String Str=sc.nextLine();
         //trim is used for removing heading and trailing space from string
+        
         String RemSpace=Str.trim();
         System.out.println(RemSpace);
         String trailingSace=Str.replace("\\s+", " ");
