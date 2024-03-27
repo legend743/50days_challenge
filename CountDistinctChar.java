@@ -10,8 +10,15 @@ public class CountDistinctChar {
 
         DistinctElement dst=new DistinctElement();
         List<Character> str=dst.distinctChar(Str1);
-        System.out.println(str);
-    
+        System.out.println(str.toString());
+        
+       
+     StringBuilder sb=new StringBuilder(str.size());
+     for (Character ch :str){
+        sb.append(ch);
+     }
+     String newStr=sb.toString();
+     System.out.println(newStr);
 
     }
 
