@@ -1,4 +1,5 @@
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class sortHashmap {
@@ -8,7 +9,13 @@ public class sortHashmap {
             scores.put("Javed", 198);
             scores.put("Malinga", 0);
             System.out.println("scores"+scores);
+            scores=sortByValue(scores);
 
 
+
+    }
+    private static Map<String,Integer>sortByValue(Map<String,Integer>scores){
+        Map<String,Integer>sortedByValue=new LinkedHashMap<>();
+        
     }
 }
