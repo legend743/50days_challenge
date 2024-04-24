@@ -17,11 +17,16 @@ public class checkListcontainsOdd {
             else{
                 n=false;
             }
-            for(int   l :oddlist){
-                System.out.println("this is your list"+l);
+            
+            
+        }
+        for(int   l :oddlist){
+            if(l%2==1){
+                System.out.println("the odd number list are:"+l);
 
             }
-            
+           
+
         }
 
       
